@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <header>
 	<style>
+		.back-to-amazon {
+			color: rgb(5, 84, 106);
+			transition: color 0.15s;
+		}
+
+		.back-to-amazon:hover {
+			color:rgb(153, 82, 0);
+		}
+
 		.add-to-cart-button {
 			background-color: rgb(255, 216, 20);
 			color: black;
@@ -8,7 +17,19 @@
 			height: 29px;
 			width: 110px;
 			border-radius: 20px;
+			transition: background-color 0.15s,
+				opacity 0.15s;
+			cursor: pointer;
 		}
+
+		.add-to-cart-button:hover {
+			background-color: rgb(232, 194, 3);
+		}
+
+		.add-to-cart-button:active {
+			opacity: 0.7;
+		}
+
 		.buy-now-button {
 			background-color: rgb(255, 164, 28);
 			color: black;
@@ -17,9 +38,20 @@
 			height: 29px;
 			width: 110px;
 			margin-left: 5px;
+			transition: background-color 0.15s,
+				opacity 0.15s;
+			cursor: pointer;
+		}
+
+		.buy-now-button:hover {
+			background-color: rgb(229, 139, 4);
+		}
+
+		.buy-now-button:active {
+			opacity: 0.7;
 		}
 	</style>
-	<a href="https://www.amazon.com/">Back to Amazon</a>
+	<a class="back-to-amazon" href="https://www.amazon.com/">Back to Amazon</a>
 	<h1>Nike Black Running Shoes</h1>
 </header>
 <body>
