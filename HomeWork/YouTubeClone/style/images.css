@@ -1,0 +1,18 @@
+img {
+	width: 500px;
+}
+
+.cat-one {
+	border-radius: 50px;
+}
+.cat-two {
+	height: 400px;
+	object-fit: cover;
+	object-position: top;
+}
+.cat-three {
+	height: 500px;
+	object-fit: cover;
+	object-position: top;
+	border-radius: 1000px;
+}
