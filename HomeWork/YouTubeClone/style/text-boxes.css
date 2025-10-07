@@ -1,0 +1,117 @@
+.name-box,
+.email-box {
+	display: block;
+	margin-bottom: 15px;
+	font-size: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-width: 2px;
+	border-radius: 5px;
+	border-color: rgb(181, 181, 181);
+	border-style: solid;
+}
+
+.question-text {
+	display: inline-block;
+	width: 245px;
+	font-size: 20px;
+	margin-right: 20px;
+}
+
+.yes-button,
+.no-button {
+	vertical-align: 100%;
+	font-size: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.first-name-text-box,
+.last-name-text-box {
+	margin-top: 100px;
+	margin-bottom: 15px;
+	font-size: 29px;
+	padding-left: 18px;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	border-width: 2px;
+	border-radius: 11px;
+	border-color: rgb(181, 181, 181);
+	border-style: solid;
+	width: 200px;
+	margin-bottom: 20px;
+	margin-right: 5px;
+}
+
+.email-text-box {
+	display: block;
+	margin-bottom: 15px;
+	font-size: 29px;
+	padding-left: 18px;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	border-width: 2px;
+	border-radius: 11px;
+	border-color: rgb(181, 181, 181);
+	border-style: solid;
+	width: 432px;
+}
+
+.sing-up-button {
+	background-color: rgb(0, 96, 241);
+	color: white;
+	border: none;
+	border-radius: 15px;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 170px;
+	padding-right: 170px;
+	margin-bottom: 100px;
+}
+
+.request-text {
+	font-size: 70px;
+	font-family: Arial;
+	margin-bottom: 50px;
+}
+
+.location-box,
+.destination-box {
+	display: block;
+	font-size: 29px;
+	background-color: rgb(236, 236, 236);
+	color: rgb(36, 36, 36);
+	border: none;
+	width: 670px;
+	margin-bottom: 15px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 35px;
+}
+
+.request-button {
+	font-size: 30px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 35px;
+	padding-right: 35px;
+	background-color: black;
+	color: white;
+	border: none;
+	margin-top: 50px;
+	margin-right: 38px;
+}
+
+.schedule-button {
+	font-size: 30px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 35px;
+	padding-right: 35px;
+	background-color: rgb(236, 236, 236);
+	color: rgb(0, 0, 0);
+	border: none;
+	margin-top: 50px;
+}
