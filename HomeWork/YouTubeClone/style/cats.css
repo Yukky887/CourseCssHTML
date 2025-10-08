@@ -1,0 +1,106 @@
+.text-box {
+	display: inline-block;
+	width: 1000px;
+	border-radius: 15px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.30);
+	margin-bottom: 100px;
+}
+
+p {
+	font-family: Arial;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.cat-image {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	object-position: top;
+	border-radius: 200px;
+	vertical-align: middle;
+}
+
+.message-text {
+	display: inline-block;
+	color: rgb(96,96,96);
+	font-size: 35px;
+	vertical-align: middle;
+	margin-right: 350px;
+}
+
+.tweet-button {
+	display: inline-block;
+	font-family: Arial;
+	background-color: rgb(55, 145, 247);
+	color: white;
+	border: none;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-radius: 40px;
+	font-weight: bold;
+	font-size: 15px;
+	cursor: pointer;
+	transition: box-shadow 0.15s;
+	vertical-align: middle;
+	font-size: 40px;
+}
+
+.tweet-button:hover {
+	box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.cat-cart{
+	display: inline-block;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.23);
+	margin-left: 20px;
+}
+
+.cat-image-surcle {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	object-position: top;
+	vertical-align: middle;
+}
+
+.cat-info {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 20px;
+	display: block;
+}
+
+.name {
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.friends {
+	font-size: 18px;
+	color: rgb(96,96,96);
+	margin-bottom: 15px;
+}
+
+.button {
+	margin-bottom: 5px;
+	font-size: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border: none;
+	background-color: rgb(0, 98, 255);
+	color: white;
+	border-radius: 5px;
+}
+

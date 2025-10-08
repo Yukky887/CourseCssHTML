@@ -1,0 +1,21 @@
+.window-container {
+	display:inline-block;
+	width: 300px;
+	height: 100px;
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.text {
+	font-family: Arial;
+	margin-left: 20px;
+}
+
+.yes-button {
+	margin-left: 20px;
+}
+
+.no-button {
+	margin-left: 5px;
+}

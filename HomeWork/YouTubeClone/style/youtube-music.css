@@ -1,0 +1,24 @@
+.container {
+	display: inline-block;
+	background-color: #282828;
+	width: 480px;
+}
+
+p {
+	font-family: "Montserrat", sans-serif;
+ 	font-optical-sizing: auto;
+ 	font-weight: 700;
+	font-style: normal;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.title {
+	color: white;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+.description {
+	color: #999;
+}
