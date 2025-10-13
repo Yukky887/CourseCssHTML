@@ -1,0 +1,43 @@
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.overlay {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.modal-box {
+	background-color: white;
+	width: 400px;
+	height: 150px;
+	padding-left: 25px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: none;
+	border-radius: 10px;
+}
+
+.title {
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 15px;
+
+}
+
+.desctiption {
+	font-size: 22px;
+	margin-bottom: 15px;
+}
+
+.close-button {
+	font-size: 20px;
+}
