@@ -11,6 +11,7 @@ p {
 	border-radius: 5px;
 	box-shadow: 0px 0px 10px rgba(0,0,0,0.23);
 	width: 440px;
+	margin-bottom: 100px;
 }
 
 .all-inboxes-text {
@@ -81,4 +82,107 @@ p {
 
 .message {
 	margin-bottom: 15px;
+}
+
+.message-twitter {
+	display: flex;
+	width: 390px;
+	flex-direction:column;
+}
+
+.message-box-twitter {
+	display: flex;
+	flex-direction: row;
+}
+
+.img-message-twitter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 15px;
+}
+
+.i-want-to-belive-img-twitter {
+	border: none;
+	width: 60px;
+	height: 60px;
+	object-fit: cover;
+	object-position: top;
+	border-radius: 100px;
+}
+
+.text-box-twitter {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 10px;
+	flex:1;
+}
+
+.title-time-twitter {
+	display: flex;
+	flex-direction: row;
+	margin-top: 15px;
+}
+
+.title-twitter {
+	font-size: 17px;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+.time-twitter {
+	margin-right: 15px;
+}
+
+.desctiption-twitter {
+	font-size: 17px;
+	color: black;
+	margin-bottom: 5px;
+	line-height: 20px;
+}
+
+.time-twitter {
+	font-size: 17px;
+	color: rgb(98, 98, 98);
+}
+
+.message-twitter {
+	margin-bottom: 15px;
+	align-items: end;
+}
+
+.link-box {
+	display: flex;
+	flex-direction: row;
+	border-style:solid;
+	border-width: 1px;
+	height:100px;
+	width: 310px;
+	border-radius: 20px;
+	border-color:rgb(223, 223, 223);
+	background-color: rgb(224, 224, 224);
+}
+
+.img-link-box {
+	width: 100px;
+}
+
+.link-textbox {
+	background-color: white;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding-left: 10px;
+	padding-top: 15px;
+	width: 300px;
+}
+
+.link-title {
+	color: rgb(185, 185, 185);
+}
+
+.link-desctiption {
+	font-size: 15px;
 }
