@@ -1,0 +1,93 @@
+.sidebar {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(30, 30, 30);
+    padding-top: 90px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.cat-1-sidebar {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.cat-2-sidebar {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.cat-3-sidebar {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50px;
+}
+
+.text-box-sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(53, 53, 53);
+    width: 300px;
+}
+
+.title-sidebar-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 20px;
+} 
+
+.title-sidebar {
+    font-size: 18px;
+    color: rgb(234, 234, 234);
+}
+
+.plus-sidebar {
+    font-size: 35px;
+    color: rgb(156, 156, 156);
+    margin-right: 20px;
+}
+
+.desctiption-sidebar {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.new-videos {
+    font-size: 18px;
+    color: rgb(185, 185, 185);
+    margin-bottom: 20px;
+}
+
+.updates {
+    font-size: 18px;
+    color: rgb(185, 185, 185);
+    margin-bottom: 20px;
+}
+
+.faq {
+    font-size: 18px;
+    color: rgb(185, 185, 185);
+}

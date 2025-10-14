@@ -1,0 +1,86 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    padding-left: 400px;
+    padding-top: 90px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border: 0;
+    border-bottom-width: 1px;
+	border-style: solid;
+	border-color: rgb(224, 222, 222);
+}
+
+.friend-img-box {
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 90px;
+}
+
+.friend-img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50px;
+}
+
+.friend-name-box {
+    display: flex;
+    flex: 1;
+
+    justify-content: left;
+    align-items: center;
+}
+
+.friend-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.buttons-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.add-friend-button {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: rgb(0, 106, 255);
+    color: white;
+    border: none;
+    border-radius: 9px;
+    margin-right: 10px;
+}
+
+.message-button {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: rgb(216, 216, 216);
+    color: black;
+    border: none;
+    border-radius: 9px;
+}
