@@ -1,0 +1,49 @@
+p {
+	font-family: Roboto, Arial;
+}
+
+.clothes-box {
+	display: inline-block;
+	position: relative;
+	width: 500px;
+}
+
+.img {
+	width: 100%;
+}
+
+.sale-text {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: black;
+	color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.button-box {
+	position: absolute;
+	display: flex;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(255, 255, 255, 0.725);
+	height: 100px;
+	justify-content: center;
+	align-items: center;
+}
+
+.add-to-cart-button {
+	font-size: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	background-color: white;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+}
